@@ -1,1 +1,1 @@
-# rust-ci
+# Rust CI

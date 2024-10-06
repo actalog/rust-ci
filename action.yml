@@ -1,0 +1,21 @@
+name: Rust CI
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions-rust-lang/setup-rust-toolchain@v1
+    - run: cargo build
+      shell: bash
+    - run: rustup component add clippy
+      shell: bash
+    - run: cargo clippy
+      shell: bash
+    - run: cargo test
+      shell: bash
+    - uses: actions/upload-artifact@v4
+      with:
+        name: rust-ci
+        path: |
+          target
+        if-no-files-found: ignore
+      continue-on-error: true

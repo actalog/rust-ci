@@ -4,11 +4,11 @@ runs:
   using: 'composite'
   steps:
     - uses: actions-rust-lang/setup-rust-toolchain@v1
-    - run: cargo build
-      shell: bash
     - run: rustup component add clippy
       shell: bash
     - run: cargo clippy
+      shell: bash
+    - run: cargo build
       shell: bash
     - run: cargo test
       shell: bash

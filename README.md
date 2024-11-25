@@ -18,5 +18,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gabrielrufino/rust-ci@main
+      - uses: actalog/rust-ci@main
 ```

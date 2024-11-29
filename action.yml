@@ -1,4 +1,4 @@
-name: Rust CI
+name: '@actalog/rust-ci'
 
 runs:
   using: 'composite'

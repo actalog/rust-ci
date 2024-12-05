@@ -1,4 +1,8 @@
 name: '@actalog/rust-ci'
+description: Continuous Integration (CI) for Rust projects
+branding:
+  icon: refresh-ccw
+  color: orange
 
 runs:
   using: 'composite'

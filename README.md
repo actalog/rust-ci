@@ -1,7 +1,6 @@
-# Rust CI
+# @actalog/rust-ci
 
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/actalog/rust-ci/ci.yml?branch=main)
-![License](https://img.shields.io/github/license/actalog/rust-ci)
+[![CD](https://github.com/actalog/rust-ci/actions/workflows/cd.yml/badge.svg)](https://github.com/actalog/rust-ci/actions/workflows/cd.yml)
 
 A GitHub Action to streamline Continuous Integration (CI) for Rust projects. This Action ensures code quality, builds, and tests your Rust project, maintaining high standards in Rust development.
 
